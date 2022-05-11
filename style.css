@@ -27,4 +27,7 @@ body{
     border-radius: 3px;
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
+    padding: 5px;
+    font-size: 25px;
 }
