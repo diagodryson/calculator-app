@@ -17,6 +17,6 @@ document.addEventListener('click' (e)  => {
 
 const calculer = (valeur) => {
     if (listeKeycode.includes(valeur)){
-            console.log(listeKeycode)
+            switch(valeur)
     }
 }
