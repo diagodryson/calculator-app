@@ -11,18 +11,22 @@ body{
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
 
 .calculatrice {
     background-color: orange;
     display: flex;
     flex-direction: column;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 5px orange;
 }
 /* ecran */
 .ecran {
     width: 100%;
     height: 100px;
-    background-color: black;
+    background-color: #EAF6F6;
     margin-bottom: 10px;
     border-radius: 5px;
     display: flex;
@@ -37,4 +41,5 @@ body{
     grid-template-columns: repeat(4, 50px);
     grid-template-rows: repeat(5, 50px);
     grid-gap: 8px;
+    border-radius: 5px;
 }
