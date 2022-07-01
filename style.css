@@ -43,3 +43,30 @@ body{
     grid-gap: 8px;
     border-radius: 5px;
 }
+
+button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: #a8a8a8;;
+    font-size: 18px;
+}
+button:active {
+    box-shadow: 0 1px #a8a8a8;
+    transform: translateY(2px);
+  }
+  
+  button[data-key="8"] {
+    background-color: grey;
+    font-weight: bold;
+    color: white;
+  }
+  
+  button[data-key="13"] {
+    grid-column: span 2;
+    background-color: #36e700;
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+  }
