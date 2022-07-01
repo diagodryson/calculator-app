@@ -58,7 +58,7 @@ button:active {
   }
   
   button[data-key="8"] {
-    background-color: grey;
+    background-color: red;
     font-weight: bold;
     color: white;
   }
