@@ -1,7 +1,7 @@
 //DOM
 const touches = document.querySelectorAll('.bouton');
 const listeKeycode = (touches.map => touches.dataset.key);
-// console.log(listeKeycode)
+const ecran = document.querySelector('.ecran')
 
 document.addEventListener('keydown', (e)  => {
     const valeur = e.keycode.toString();
