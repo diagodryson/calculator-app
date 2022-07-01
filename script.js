@@ -21,8 +21,10 @@ const calculer = (valeur) => {
                 case '8':
                     ecran.textContent = "";
                     break;
-                case '13';
+                case '13':
                     const calcul = eval (ecran.textContent);
+                    ecran.textContent = calcul;
+                    break;
             
             }
     }
