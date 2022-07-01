@@ -1,5 +1,5 @@
 //DOM
-const touches = document.querySelectorAll('.bouton');
+const touches = [...document.querySelectorAll('.bouton')];
 const listeKeycode = touches.map(touche => touche.dataset.key);
 const ecran = document.querySelector('.ecran')
 
