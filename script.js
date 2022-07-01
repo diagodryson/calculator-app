@@ -17,6 +17,13 @@ document.addEventListener('click' (e)  => {
 
 const calculer = (valeur) => {
     if (listeKeycode.includes(valeur)){
-            switch(valeur)
+            switch(valeur) {
+                case '8':
+                    ecran.textContent = "";
+                    break;
+                case '13';
+                    const calcul = eval (ecran.textContent);
+            
+            }
     }
 }
