@@ -44,7 +44,7 @@ In progress..
 
 ## Author Info
 
-- Twitter - [@diagodryson](https://twitter.com/jamesqquick)
+- Twitter - [@diagodryson](https://twitter.com/)
 - Linkedin - [@diagodryson](https://linkedin.com/in/diagodryson)
 
 [Back To The Top](#read-me-template)
